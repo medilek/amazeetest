@@ -1,0 +1,13 @@
+{
+    "name": "drupal/amazeetest",
+    "description": "Amazeelabs Drupal formatter plugin.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Jan Medilek",
+            "role": "Maintainer"
+        },
+    ],
+    "license": "BSD",
+    "minimum-stability": "dev",
+}

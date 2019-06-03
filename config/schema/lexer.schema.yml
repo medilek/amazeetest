@@ -1,0 +1,25 @@
+# Schema for the configuration files of the Lexer module.
+
+field.formatter.settings.lexer_formula:
+  type: mapping
+  label: 'Lexer formular format settings'
+  mapping:
+    title:
+      type: label
+      label: 'Title to replace lexer formula display'
+
+field.widget.settings.lexer_default:
+  type: mapping
+  label: 'Lexer default format settings'
+  mapping:
+    placeholder:
+      type: label
+      label: 'Placeholder'
+
+field.value.lexer:
+  type: mapping
+  label: 'Default value'
+  mapping:
+    value:
+      type: string
+      label: 'Value'

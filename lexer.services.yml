@@ -1,0 +1,4 @@
+services:
+  lexer:
+    class: Drupal\amazeetest\Services\Lexer
+    arguments: ['@input'] 
